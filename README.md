@@ -27,13 +27,7 @@
 
 点击按钮的时候的效果
 
-<img src="" width="200">
-<img src="" width="200">
-
-
-
-效果看图：
-![]()
+![效果图](https://delims.github.io/cocoapods/images/segmented.gif)
 
 
 
