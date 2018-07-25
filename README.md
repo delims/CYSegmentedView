@@ -34,7 +34,7 @@ $ pod 'CYSegmentedView', '~> 1.0.1'
 
  storyboard 中的 `UIScrollView`的 `Class` 类型选择该 **`CYSegmentedView`** 即可。
  
- ## 效果
+## 效果
  
  点击按钮的时候的效果
  

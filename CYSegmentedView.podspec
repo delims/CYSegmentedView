@@ -15,12 +15,9 @@ s.summary      = "A segmentedControl with vernier"
 
 s.homepage     = "https://github.com/delims/CYSegmentedView"
 
-s.source = { :git => "https://github.com/liugangios/IFMMenu.git", :commit => "68defea" }
-
-
-s.source       = { :git => "https://github.com/delims/CYSegmentedView.git", :commit => "" }
-
+s.source       = { :git => "https://github.com/delims/CYSegmentedView.git", :commit => "e64b262" }
 s.source       = { :git => "https://github.com/delims/CYSegmentedView.git", :tag => "#{s.version}" }
+
 s.source_files = "CYSegmentedView/*.{h,m}"
 s.requires_arc = true # 是否启用ARC
 s.platform     = :ios, "7.0"
