@@ -17,13 +17,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    CYSegmentedView *segment = [CYSegmentedView new];
+    CYSegmentedView *segment = [[CYSegmentedView alloc] init];
+    segment.frame = CGRectMake(0, 50, [UIScreen mainScreen].bounds.size.width, 50);
     segment.itemNames = @[@"语文",@"物理",@"地理",@"历史",@"音乐",@"英语",@"生物",@"英语",@"生物"];
     segment.itemSelectedColor = [UIColor blueColor];
     segment.itemNormalColor = [UIColor greenColor];
-    segment.frame = CGRectMake(0, 50, [UIScreen mainScreen].bounds.size.width, 50);
-    
     [self.view addSubview:segment];
+    
     // Do any additional setup after loading the view, typically from a nib.
 }
 
