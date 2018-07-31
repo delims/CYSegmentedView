@@ -9,13 +9,13 @@
 Pod::Spec.new do |s|
 
 s.name         = "CYSegmentedView"
-s.version      = "1.0.1"
+s.version      = "1.0.2"
 s.license      = "MIT"
 s.summary      = "A segmentedControl with vernier"
 
 s.homepage     = "https://github.com/delims/CYSegmentedView"
 
-s.source       = { :git => "https://github.com/delims/CYSegmentedView.git", :commit => "e64b262" }
+s.source       = { :git => "https://github.com/delims/CYSegmentedView.git", :commit => "3a7b8b8" }
 s.source       = { :git => "https://github.com/delims/CYSegmentedView.git", :tag => "#{s.version}" }
 
 s.source_files = "CYSegmentedView/*.{h,m}"

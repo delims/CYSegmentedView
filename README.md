@@ -16,19 +16,14 @@ $ pod 'CYSegmentedView', '~> 1.0.1'
 
 - 代码创建
 
-
-    `CYSegmentedView *segment = [[CYSegmentedView alloc] init];`
-
-    `segment.frame = CGRectMake(0, 50, [UIScreen mainScreen].bounds.size.width, 50);`
-
-    `segment.itemNames = @[@"语文",@"物理",@"地理",@"历史",@"音乐",@"英语",@"生物",@"英语",@"生物"];`
-
-    `segment.itemSelectedColor = [UIColor blueColor];`
-
-    `segment.itemNormalColor = [UIColor greenColor];`
-
-    `[self.view addSubview:segment];`
-
+```
+CYSegmentedView *segment = [[CYSegmentedView alloc] init];
+segment.frame = CGRectMake(0, 50, [UIScreen mainScreen].bounds.size.width, 50);
+segment.itemNames = @[@"语文",@"物理",@"地理",@"历史",@"音乐",@"英语",@"生物",@"英语",@"生物"];
+segment.itemSelectedColor = [UIColor blueColor];
+segment.itemNormalColor = [UIColor greenColor];
+[self.view addSubview:segment];
+```
 
 - storyboard
 
