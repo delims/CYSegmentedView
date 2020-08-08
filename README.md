@@ -31,8 +31,6 @@ segment.itemNormalColor = [UIColor greenColor];
  
 ## 效果
  
- 点击按钮的时候的效果
- 
  ![效果图](https://delims.github.io/static/cocoapods/images/segmented.gif)
  
  
